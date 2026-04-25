@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+google-cloud-vision
+opencv-python
+numpy
+colorname
+pydantic-settings
+sqlalchemy
+psycopg[binary]
+ultralytics

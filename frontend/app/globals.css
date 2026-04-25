@@ -1,0 +1,101 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #f8fafc;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #cbd5e1;
+  margin-top: 0;
+}
+
+.panel {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #cbd5e1;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  margin-top: 0.35rem;
+  margin-bottom: 0.15rem;
+  background: #0f172a;
+  color: #f8fafc;
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.6rem;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.preview {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.error {
+  color: #fca5a5;
+  margin-top: 1rem;
+}
+
+.colors {
+  margin-top: 0.75rem;
+}
+
+.colorRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.swatch {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #334155;
+}
